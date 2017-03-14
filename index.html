@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <!--设置当前 html 文件的字符编码-->
+    <meta charset="UTF-8">
+    <!--设置浏览器的兼容模板版本（让 IE 使用最新的渲染引擎工作-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <!--声明当前网页在移动端浏览器中展示的相关设置-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--上述3 个meta 标签必须放在最前面，任何其他内容都必须跟随其后-->
+    <title></title>
+    <!--引入 Bootstrap-->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <!--条件注释的作用就是当判断条件满足时，就会执行注释中的HTML 代码-->
+    <!--respond : 让低版本浏览器可以支持css 媒体查询功能-->
+    <!--[if lt IE 9]
+        <script src="lib/html5shiv/html5shiv.main.js"></script>
+        <script src="lib/respond/respond.main.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header class="header-top">
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">盘丝博客</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">作品</a></li>
+                        <li><a href="html/index.html">关于我</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">更多动态</a></li>
+                                <li><a href="#">信息</a></li>
+                                <li><a href="#">魅力</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">生活洞</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">思想巨人</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">搜索</button>
+                    </form>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</header>
+<div class="content container clearfix">
+    <div class="row">
+        <div class="col-sm-12 col-md-9">
+            <div class="thumbnail ps-top">
+                <img src="./images/demo01.jpg" alt="...">
+                <div class="caption">
+                    <a href="http://www.daqianduan.com/6281.html"><h3>胡同里的小太子(转)</h3></a>
+                    <p class="meta">
+                        <time class="fa fa-clock-o">&nbsp;2017-01-28</time>
+                        <span class="fa fa-user">&nbsp;Vic Chen</span>
+                        <span class="fa fa-eye">&nbsp;阅读(123)</span>
+
+                    </p>
+                    <p class="hidden-xs">它是胡同里的常客，偶尔静静的在那里等待主人，偶尔惊扰周末睡懒觉的邻居，其实都没什么大不了，大家已经习惯了它的存在，它的主人也一直很爱惜它，后座不常做人，也总是被擦的亮亮的，好像随时等待着女主人来此...</p>
+                    <p class="clearfix">
+                        <a class="hidden-xs pull-right read-continue" href="http://www.daqianduan.com/6281.html" role="button">继续阅读 &raquo;</a>
+                            <span class="tags">
+                                <a href="">我是标签</a>
+                                <a href="">我是标签2</a>
+                                <a href="">我是标签3</a>
+                            </span>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail ps-top">
+                <img src="./images/WEB.jpg" alt="...">
+                <div class="caption">
+                    <a href="http://www.daqianduan.com/6281.html"><h3>手机移动端web资源整合(转)</h3></a>
+                    <p class="meta">
+                    <time class="fa fa-clock-o">&nbsp;2017-01-28</time>
+                    <span class="fa fa-user">&nbsp;浩子</span>
+                    <span class="fa fa-eye">&nbsp;阅读(123)</span>
+
+                    </p>
+                    <p class="hidden-xs">meta基础知识 H5页面窗口自动调整到设备宽度，并禁止用户缩放页面 &lt;meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=...</p>
+                    <p class="clearfix">
+                        <a class="hidden-xs pull-right read-continue" href="http://www.daqianduan.com/6281.html" role="button">继续阅读 &raquo;</a>
+                            <span class="tags">
+                                <a href="">我是标签</a>
+                                <a href="">我是标签2</a>
+                                <a href="">我是标签3</a>
+                            </span>
+                    </p>
+                </div>
+            </div>
+            <div class="thumbnail ps-top">
+                <img src="./images/jquery.jpg" alt="...">
+                <div class="caption">
+                    <a href=""><h3>jQuery事件绑定的最佳实践(转)</h3></a>
+                    <p class="meta">
+                        <time class="fa fa-clock-o">&nbsp;2017-01-28</time>
+                        <span class="fa fa-user">&nbsp;浩子</span>
+                        <span class="fa fa-eye">&nbsp;阅读(123)</span>
+
+                    </p>
+                    <p class="hidden-xs">如果你经常使用jQuery，那么你也许很熟悉事件绑定。这是很基本的东西，但是深入一点，你就能够找到机会让你事件驱动的代码变得不太零碎，并且更容易管理。 更好的选择器策略 让我们从基础的例子开始。下面的HTML代码表示的是可以开合的导航菜单。...</p>
+                    <p class="clearfix">
+                        <a class="hidden-xs pull-right read-continue" href="" role="button">继续阅读 &raquo;</a>
+                            <span class="tags">
+                                <a href="">我是标签</a>
+                                <a href="">我是标签2</a>
+                                <a href="">我是标签3</a>
+                            </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="thumbnail ps-top">
+                <img src="./images/js.jpg" alt="...">
+                <div class="caption">
+                    <a href=""><h3>抛弃jQuery，拥抱原生JavaScript(转)</h3></a>
+                    <p class="meta">
+                        <time class="fa fa-clock-o">&nbsp;2017-01-28</time>
+                        <span class="fa fa-user">&nbsp;浩子</span>
+                        <span class="fa fa-eye">&nbsp;阅读(123)</span>
+
+                    </p>
+                    <p class="hidden-xs">前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery...</p>
+                    <p class="clearfix">
+                        <a class="hidden-xs pull-right read-continue" href="" role="button">继续阅读 &raquo;</a>
+                            <span class="tags">
+                                <a href="">我是标签</a>
+                                <a href="">我是标签2</a>
+                                <a href="">我是标签3</a>
+                            </span>
+                    </p>
+                </div>
+            </div>
+            <!-- 分页-->
+            <nav aria-label="Page navigation" style="text-align: center">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="visible-lg visible-md col-md-3 ps-top">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">猜你喜欢</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="ps-link1">
+                        <li><a href="">D站</a></li>
+                        <li><a href="http://www.bilibili.com/">B站</a></li>
+                        <li><a href="">心灵</a></li>
+                        <li><a href="">爱我别走</a></li>
+                        <li><a href="">啦啦啦</a></li>
+                        <li><a href="">哈哈哈</a></li>
+                        <li class="text-right ps-more"><a href="">更多>></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">声明</h3>
+                </div>
+                <div class="panel-body">
+                    <p>
+                        这是一个基于bootstrap框架的博客，是一款个人博客，本人偏好简洁，特意开发了此博客。如果您不小心使用了该主题，请注明版权，禁止商业行为
+                    </p>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">链接</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row text-center ps-link">
+                        <a href="http://www.haorooms.com/" class="col-md-6">前端博客</a>
+                        <a href="http://www.bcwhy.com/" class="col-md-6">编程入门</a>
+                        <a href="https://www.fedte.cc/" class="col-md-6">Falost的小窝</a>
+                        <a href="http://www.w3cschool.cn/" class="col-md-6">w3cschool</a>
+                        <a href="http://www.daqianduan.com/" class="col-md-6">大前端</a>
+                        <a href="http://www.haorooms.com/nav" class="col-md-6">前端导航</a>
+                        <a href="http://www.haorooms.com/tools/index" class="col-md-6">小工具</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--尾部-->
+<footer class="ps-footer">
+    <div class="ps-footer-info">
+        <ul class="footer-link">
+            <li><a href=""><i class="fa fa-weixin"></i></a></li>
+            <li><a href=""><i class="fa fa-weibo"></i></a></li>
+            <li><a href=""><i class="fa fa-rss"></i></a></li>
+            <li><a href=""><i class="fa fa-github"></i></a></li>
+        </ul>
+    </div>
+    <div class="ps-footer-copyright">
+        <div> pansi.pan Copyright © 2017 <a class="vc-a" href="#!">panzlan</a>
+        </div>
+        Powered by <a class="vc-a" href="#!">panzlan</a>
+    </div>
+</footer>
+
+<div class="ps-toTop">
+    <span ></span>
+</div>
+
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
